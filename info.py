@@ -22,8 +22,8 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 PORT = environ.get("PORT", "8080")
 TIMEZONE = environ.get("TIMEZONE", "Asia/Kolkata")
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/705593c3ae56831c8e565.jpg https://telegra.ph/file/869de5ba9ac7e61559f24.jpg https://telegra.ph/file/4f3d1cc0b1375ae596b16.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.jpg")
+PICS = (environ.get('PICS', 'https://graph.org/JK-02-26')).split()
+NOR_IMG = environ.get("NOR_IMG", "https://graph.org/JK-02-26")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/b60d2facc538ad82ad22d.jpg")
 NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/705593c3ae56831c8e565.jpg")
 
@@ -44,15 +44,15 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "EvaMaria")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/kdbotz_support')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/kd_botz')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'kdbotz_Support')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/jk_grp')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/jkmovies_backup')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'jk_ser')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', 0))
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/movieshouse8')
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/FILES_CHANNEL7')
 
 # Log Channels
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
@@ -81,8 +81,8 @@ AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 MAUTO_DELETE = is_enabled((environ.get('MAUTO_DELETE', "True")), True)
 
 # Delete Time
-DELETE_TIME = int(environ.get('DELETE_TIME', 600))
-SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 15))
+DELETE_TIME = int(environ.get('DELETE_TIME', 1800))
+SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 10))
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
